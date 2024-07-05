@@ -101,13 +101,13 @@ swagger = Swagger(app)
 model = joblib.load('predict_purchase_model.pkl')
 
 @app.route('/')
-def hello_world():
+def predict_purchase_home_page():
     """
-    Example endpoint returning a simple greeting
+    Precict purchase home page.
     ---
     responses:
       200:
-        description: A simple greeting message
+        description: A simple welcome message.
         examples:
           text: Welcome message.
     """
