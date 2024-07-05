@@ -1,7 +1,8 @@
 # Building an API for a Machine Learning model with Swagger
 
 <img width="1433" alt="image" src="https://github.com/MNCEDISIMNCWABE/Machine-Learning-Model-API-with-Swagger/assets/67195600/f1f743a9-f3e5-4b19-acd8-2bdeef8b904c">
-<img width="1433" alt="image" src="https://github.com/MNCEDISIMNCWABE/Machine-Learning-Model-API-with-Swagger/assets/67195600/f917f0ce-d598-40db-a99d-71dab1cbd505">
+<img width="1433" alt="image" src="https://github.com/MNCEDISIMNCWABE/Machine-Learning-Model-API-with-Swagger/assets/67195600/70faba39-2714-48f7-b02d-a4dfb9dc7443">
+
 
 
 Your Machine Learning Model is Accurate, Now What?. 
