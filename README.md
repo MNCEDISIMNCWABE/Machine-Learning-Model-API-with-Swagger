@@ -45,7 +45,7 @@ data.head()
 
 <img width="782" alt="image" src="https://github.com/MNCEDISIMNCWABE/Machine-Learning-Model-API-with-Swagger/assets/67195600/4fc0b008-07a8-4068-9b96-0fa04f359bcd">
 
-#### 1: Build a Simple Logistic Regression model
+#### 2: Build a Simple Logistic Regression model
 
 ```
 from sklearn.model_selection import train_test_split
