@@ -1,5 +1,8 @@
 # Building an API for a Machine Learning model with Swagger
 
+<img width="1433" alt="image" src="https://github.com/MNCEDISIMNCWABE/Machine-Learning-Model-API-with-Swagger/assets/67195600/f1f743a9-f3e5-4b19-acd8-2bdeef8b904c">
+
+
 Your Machine Learning Model is Accurate, Now What?. 
 The ability to deploy these models as APIs that end users can interact with is just as crucial. In this repo we explore the process of creating an API for a machine learning model using [Swagger,](https://swagger.io/) demonstrating how to share and integrate this endpoint into a production environment so that your model doesn't just end in a Juputer notebook. We'll also test the API and highlight the benefits of such an approach.
 
