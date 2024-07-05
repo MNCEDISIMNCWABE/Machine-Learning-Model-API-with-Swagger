@@ -193,3 +193,5 @@ def predict():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5009)
 ```
+### 5: Run the API
+In your project directory where app.py is saved, run : ```python app.py```
