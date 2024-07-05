@@ -69,6 +69,7 @@ generate_perfomance_metrics(y_test,y_pred)
 ```
 <img width="436" alt="image" src="https://github.com/MNCEDISIMNCWABE/Machine-Learning-Model-API-with-Swagger/assets/67195600/d3a671ad-8283-45c0-941f-253682efb636">
 
+### 3: Save the trained logistic model as a pickle file using the code below:
 ```
 def save_model(model, filename='predict_purchase_model.pkl', folder='/path/to/save/model/'):
     if not os.path.exists(folder):
@@ -82,8 +83,10 @@ def save_model(model, filename='predict_purchase_model.pkl', folder='/path/to/sa
 save_model(lr_clf)
 ```
 
-### 3: Build an API for the model using Flask and Swagger
-
+### 4: Build an API for the model using Flask and Swagger
+Install flassger and flas using ```pip install flasgger flask```
+Create a file named app.py and add the following code:
+This the file the calls your trained model ```predict_purchase_model.pkl``` and use it to predict probability of a customer to make a purchase.
 ```
 from flask import Flask, request, jsonify
 from flasgger import Swagger
