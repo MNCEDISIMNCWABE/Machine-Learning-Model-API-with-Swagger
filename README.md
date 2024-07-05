@@ -7,8 +7,8 @@ The ability to deploy these models as APIs that end users can interact with is j
 ### Scenario: Predicting Purchase Probability
 Let's consider a scenario where we have built a machine learning model to predict the probability of a customer making a purchase of a product. We'll generate synthetic data for this example, create the model, and then build an API for it. In this case, you can think of it as a model that helps marketing teams to identify potential customers who are more likely to make a purchase, allowing them to target their campaigns more effectively. In the front-end of the API, end-users such as marketing teams can provide values for customer features like income, savings, age, credit score, and whether a customer subscribed to a marketing campaign before. The model will then return the probabilities of a customer making a purchase.
 
-#### Step 1: Generate Synthetic Data and Build the Model
-First, let's generate synthetic data and build a simple logistic regression model.
+#### Step 1: Generate Synthetic Data
+First, let's generate synthetic data:
 
 
 ``` # Generate synthetic data
@@ -37,4 +37,8 @@ data = pd.DataFrame({
     'purchase': purchase
 })
 
-data.head() ```
+data.head()
+ ```
+
+<img width="782" alt="image" src="https://github.com/MNCEDISIMNCWABE/Machine-Learning-Model-API-with-Swagger/assets/67195600/4fc0b008-07a8-4068-9b96-0fa04f359bcd">
+
