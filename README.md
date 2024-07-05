@@ -84,9 +84,8 @@ save_model(lr_clf)
 ```
 
 ### 4: Build an API for the model using Flask and Swagger
-Install ```flassger``` and ```flask``` using ```pip install flasgger flask```.
-- Create a file named app.py and add the following code:
-This the file the calls your trained model ```predict_purchase_model.pkl``` and use it to predict probability of a customer to make a purchase.
+- Install ```flassger``` and ```flask``` using ```pip install flasgger flask```.
+- Create a file named app.py in your project directory and add the following code: This the file calls your trained model ```predict_purchase_model.pkl``` and use it to predict probability of a customer to make a purchase.
 ```
 from flask import Flask, request, jsonify
 from flasgger import Swagger
