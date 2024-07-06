@@ -205,4 +205,4 @@ When the app is running you can access the Swagger API endpoint at http://127.0.
 Example:
 <img width="1433" alt="image" src="https://github.com/MNCEDISIMNCWABE/Machine-Learning-Model-API-with-Swagger/assets/67195600/587a241c-5ef4-4d0c-bf37-8a8436355d06">
 
-Here you can then provice values for customer features like income, savings, age, credit score, and whether a customer subscribed to a marketing campaign before, to predict their probability of purchasing a product.
+Here you can then provide values for customer features like income, savings, age, credit score, and whether a customer subscribed to a marketing campaign before, to predict their probability of purchasing a product.
